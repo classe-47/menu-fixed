@@ -18,6 +18,10 @@ body {
     text-align: center;
     height: 80px;
     line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header-main nav ul li {
@@ -35,4 +39,12 @@ body {
 .header-main nav ul li:not(:first-child) a:hover {
     background-color: grey;
     border-bottom: 4px solid rgb(93, 240, 93);
+}
+
+main {
+    margin-top: 80px;
+}
+
+main p {
+    line-height: 40px;
 }
